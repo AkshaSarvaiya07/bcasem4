@@ -8,7 +8,7 @@ public class per
 
         // Getting percentage from the user
         System.out.print("Enter your percentage: ");
-        double percentage = scanner.nextDouble();
+        int percentage = scanner.nextInt();
 
         // Determining the grade using nested if
         if (percentage >= 90) 
