@@ -1,22 +1,21 @@
 using System;
-class ask
+class sumudf
 {
-	public static void sum()
+	public static int sum(int a, int s)
 	{
-		Console.WriteLine("hello");
-		int a, s, sum;
-        Console.Write("Enter value of a: ");
-        a = Convert.ToInt32(Console.ReadLine());
-		Console.Write("Enter value of s: ");
-        s = Convert.ToInt32(Console.ReadLine());
-
-		sum = a + s;
-		Console.WriteLine("answer is: " + sum);
+		
+		return a+s; 
 	}
 	public static void Main()
 	{
+		Console.Write("Enter value of a: ");
+       int a = Convert.ToInt32(Console.ReadLine());
+		Console.Write("Enter value of s: ");
+        int s = Convert.ToInt32(Console.ReadLine());
+		
 	
-		sum();
+		int ans=sum(a,s);
+		Console.WriteLine("answer is:" +ans);
 		Console.ReadLine();
 	}
 }
